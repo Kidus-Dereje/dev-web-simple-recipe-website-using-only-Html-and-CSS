@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    margin:0;
+    min-height: 100%;
+    background-color: rgb(102, 49, 12);
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+nav{
+    width: 100%;
+    background-color: antiquewhite;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+nav ul li{
+    padding: 5px;
+    color: rgb(102, 49, 12);
+    list-style-type: none;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+nav ul li:hover{
+    transform: scale(1.4);
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:link{
+    color: rgb(102, 49, 12);
+}
+nav ul li a:visited{
+    color: rgb(102, 49, 12);
+}
+header div{
+    width: 100%;
+}
+header{
+    background-color: rgb(102, 49, 12);
+    padding: 1px;
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+header h1{
+    color: antiquewhite;
+    font-size: 60px;
+    text-align: center;
+}
+header h4{
+    color: rgb(223, 216, 211);
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    font-size: 20px;
+}
+img{
+    width: 40%;
+    display: block;
+    padding: 20px;
+}
+.textbox{
+    padding: 40px;
+    width: 50%;
+}
+.textbox h2,p{
+    color: antiquewhite;
+}
+main{
+    background-color: rgb(124, 64, 21);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position:inherit;
+}
+footer{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    left:0;
+    bottom: 0;
+}
+footer div h2{
+    color:rgb(102, 49, 12);
+    font-size: 50px;
+    padding: 5px 0px 0px 10px;
+}
+footer div p{
+    width: 600px;
+    padding: 20px;
+    color: rgb(112, 58, 19);
+    font-size: 18px;
+}
+footer img{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    transition: all 0.3s;
+}
+footer img:hover{
+    transform: scale(1.2);
+}
+.links h2{
+    text-align: center;
+}
+.links p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+ab{
+    font-style:italic;
+}

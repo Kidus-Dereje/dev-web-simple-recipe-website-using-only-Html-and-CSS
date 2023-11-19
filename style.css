@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(228, 245, 222);
+    padding-top: 100px;
+}
+nav{
+    width: 100%;
+    background-color: rgb(141, 60, 45);
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+nav ul li{
+    padding: 5px;
+    color: antiquewhite;
+    list-style-type: none;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+nav ul li:hover{
+    transform: scale(1.4);
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:link{
+    color: rgb(243, 231, 223);
+}
+nav ul li a:visited{
+    color: rgb(243, 231, 223);
+}
+header div{
+    width: 100%;
+}
+header{
+    background-color: rgb(243, 231, 223);
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+header h1{
+    color: rgb(141, 60, 45);
+    font-size: 60px;
+    text-align: center;
+}
+header h4{
+    color: rgb(248, 121, 106);
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    font-size: 20px;
+}
+main{
+    margin:53px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(243, 231, 223);
+}
+main div{
+    padding:40px;
+}
+main div img:hover{
+    transform: scale(1.17);
+}
+main div img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+main div h3{
+    color: rgb(141, 60, 45);
+}
+.dorowot{
+    position: relative;
+    overflow: hidden;
+}
+.dorowot:hover .content{
+    left: 0;
+}
+.content{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top:10%;
+    left:-200%;
+    padding: 10px;
+    transition: all 2.0s;
+    justify-self:center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h4{
+    padding: 13.5%;
+}
+.kikel{
+    position: relative;
+    overflow: hidden;
+}
+.kikel:hover .content{
+    left: 0;
+}
+.dulet{
+    position: relative;
+    overflow: hidden;
+}
+.dulet:hover .content{
+    left: 0;
+}
+.kitfo{
+    position: relative;
+    overflow: hidden;
+}
+.kitfo:hover .content{
+    left: 0;
+}
+.tibs{
+    position: relative;
+    overflow: hidden;
+}
+.tibs:hover .content{
+    left: 0;
+}
+.segawot{
+    position: relative;
+    overflow: hidden;
+}
+.segawot:hover .content{
+    left: 0;
+}
+.gomen{
+    position: relative;
+    overflow: hidden;
+}
+.gomen:hover .content{
+    left: 0;
+}
+.defo{
+    position: relative;
+    overflow: hidden;
+}
+.defo:hover .content{
+    left: 0;
+}
+.tire{
+    position: relative;
+    overflow: hidden;
+}
+.tire:hover .content{
+    left: 0;
+}
+footer{
+    width: 100%;
+    background-color: rgb(141, 60, 45);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    right: 0;
+    left:0;
+    bottom: 0;
+}
+footer div h2{
+    color:rgb(243, 231, 223);
+    font-size: 50px;
+    padding: 5px 0px 0px 10px;
+}
+footer div p{
+    width: 500px;
+    color: rgb(243, 231, 223);
+    font-size: 18px;
+    padding: 20px;
+}
+footer img{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    transition: all 0.3s;
+}
+footer img:hover{
+    transform: scale(1.2);
+}
+.links h2{
+    text-align: center;
+}
+.links p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+ab{
+    font-style:italic;
+}
